@@ -32,9 +32,6 @@ img {
     display: block;
 }
 
-input{
-    outline: none;
-}
 
 .list {
     padding: 0;
@@ -600,6 +597,7 @@ input{
 
 .footer-input:focus {
     border-color: var(--accent-color);
+    outline: none;
 }
     
 
@@ -704,6 +702,7 @@ input{
 
 .modal-input:focus{
     border-color: var(--accent-color);
+    outline: none;
 }
 
 .modal-input:focus + .imput-icon{
@@ -738,7 +737,6 @@ input{
     width: 100%;
     min-height: 120px;
     resize: none;
-    outline: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
@@ -762,6 +760,7 @@ input{
 
 .online-comment:focus {
     border-color: var(--accent-color);
+    outline: none;
 }
 
 .check-text{
